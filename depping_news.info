@@ -1,0 +1,13 @@
+name = Depping News
+description = Feature with news
+core = 7.x
+package = Depping
+version = 7.x-0.1
+project = depping_news
+dependencies[] = features
+dependencies[] = field_sql_storage
+dependencies[] = node
+dependencies[] = text
+features[features_api][] = api:1
+features[field][] = node-depping_news-body
+features[node][] = depping_news
